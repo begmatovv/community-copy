@@ -2,16 +2,21 @@
   display: flex;
   background-color: #dceaf5;
   align-items: center;
-  margin-bottom: 8rem;
+  margin-bottom: 11rem;
+}
+.hero__wrapper {
+  display: flex;
 }
 .hero__content {
+  padding: 1rem;
+  margin-top: 11.7rem;
   width: 576px;
   height: 439px;
-  padding: 1rem;
 }
 .hero__content__heading {
   margin-bottom: 1rem;
   letter-spacing: -0.03em;
+  color: #1d3444;
   width: 576px;
   height: 144px;
 }
@@ -41,6 +46,9 @@
   display: flex;
   gap: 3rem;
 }
+.hero__image {
+  margin-top: 8.5rem;
+}
 
 /* section2 */
 .help__section {
@@ -49,20 +57,13 @@
 .help__section__heading {
   width: 735px;
   height: 112px;
-
-  font-family: Poppins;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 56px;
   letter-spacing: -0.03em;
-  text-align: left;
   color: #1d3444;
   margin-bottom: 3rem;
 }
 .help__section__text {
   width: 735px;
   height: 90px;
-
   margin-bottom: 5rem;
 }
 .help__section__posts {
@@ -150,8 +151,6 @@
 
 /* section4 */
 .about {
-  width: 1338px;
-  height: 824px;
   display: flex;
   padding: 7rem;
   gap: 2rem;
@@ -222,13 +221,12 @@
 /* Section4end */
 /* Section5 */
 .service {
-  width: 1274px;
-  height: 682px;
   position: relative;
   display: flex;
   padding: 4rem;
   border-radius: 20px;
   background: #edf7ff;
+  margin-bottom: 12rem;
 }
 .service__content {
 }
@@ -277,7 +275,7 @@
 .service__content__image__second {
   position: relative;
   top: -5.5rem;
-  left: 2.5rem;
+  left: 13.4rem;
 }
 /* Section5end */
 
@@ -325,8 +323,6 @@
 
 /* section7 */
 .video {
-  width: 1280px;
-  height: 600px;
   border-radius: 20px;
   display: flex;
   gap: 6rem;
@@ -415,5 +411,5 @@
   margin-bottom: 3rem;
 }
 .latest__blog__content__link {
-    color: #f58a07;
+  color: #f58a07;
 }
